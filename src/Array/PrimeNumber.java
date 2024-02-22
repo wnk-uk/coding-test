@@ -1,4 +1,3 @@
-package Array;
 
 import java.util.Scanner;
 
@@ -41,7 +40,7 @@ public class PrimeNumber {
                 for (int j = i; j <= n; j = j + i) ch[j] = 1;
             }
         }
-        return 0;
+        return answer;
     }
 
 
